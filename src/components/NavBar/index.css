@@ -1,0 +1,60 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #9796f0;
+}
+
+.title-with-score-container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 80%;
+  max-width: 1000px;
+}
+
+.emoji-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.emoji-logo {
+  width: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-logo {
+    width: 48px;
+  }
+}
+
+.emoji-logo-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-logo-name {
+    font-size: 24px;
+  }
+}
+
+.score-container {
+  display: flex;
+}
+
+.score {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .score {
+    font-size: 24px;
+    margin-left: 32px;
+  }
+}
